@@ -1,0 +1,44 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: "NissanRegular";
+  src: local("Nissan"),
+   url(../assets/fonts/nissan/NissanBrand-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "NissanLight";
+  src: local("NissanLight"),
+   url(../assets/fonts/nissan/NissanBrand-Light.otf) format("truetype");
+}
+@font-face {
+  font-family: "NissanBold";
+  src: local("NissanBold"),
+   url(../assets/fonts/nissan/NissanBrand-Bold.otf) format("truetype");
+}
+
+// swipe slider
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// swipe slider
